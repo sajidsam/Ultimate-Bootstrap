@@ -9,16 +9,25 @@
 
 ## 📌 Overview
 
-This repository contains a structured, hands-on learning roadmap and practical projects built with **Bootstrap 5.3**. It covers core grid layouts, content styling, interactive forms, modern helper utilities, extensive utility classes, and real-world dashboard implementations.
+This repository contains a comprehensive, hands-on learning roadmap and practical projects built with **Bootstrap 5.3**. It covers core grid layouts, content styling, interactive forms, UI components, modern helper utilities, extensive atomic utility classes, and real-world multi-page web applications.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
 - **HTML5**: Semantic markup structuring
-- **CSS3**: Custom gradients, variables, and scoped overrides
+- **CSS3**: Custom gradients, glassmorphism backdrop filters, variables, and scoped overrides
 - **Bootstrap 5.3**: Responsive grid, utilities, layout components, and JS modules
 - **JavaScript**: Popper.js and Bootstrap bundle for interactive components (dropdowns, modals, collapses)
+
+---
+
+## 🌐 Live Demos & Deployments
+
+| Project | Live Demo Link | Platform |
+| :--- | :--- | :--- |
+| **Project 1: EMS 2.0 (Employee Management System)** | [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_EMS_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://ems-web-kappa.vercel.app/) | Vercel |
+| **Project 2: BLOG 2.0 (Modern Blog Platform)** | [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_BLOG_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://blog-app-jet-ten-12.vercel.app/) | Vercel |
 
 ---
 
@@ -61,6 +70,11 @@ Bootstrap/
 │   ├── 09-auto-sizing-forms/
 │   ├── 10-inline-forms/
 │   └── 11-form-validation/
+├── Section5 Components/
+│   ├── 01/ to 05/            # Accordions, Alerts, Badges, Breadcrumbs
+│   ├── 06/                   # Buttons & Button Grids (index.html, button.html)
+│   ├── 07/ to 09/            # Button Groups, Toolbars, Sizing
+│   └── 10/ to 26/            # Component Practice Modules
 ├── Section6 Helpers Bootstrap/
 │   ├── 01-clearfix/
 │   ├── 02-colors-bg/
@@ -92,13 +106,23 @@ Bootstrap/
 │   ├── 57-visibility/
 │   └── 58-z-index/
 ├── Section8 Project One/
-│   ├── index.html            # Login Authentication Page
+│   ├── index.html            # Authentication / Login Page
 │   ├── dash.html             # Main EMS Admin Dashboard
 │   ├── employees-list.html   # Employee Directory with Modals & Table
 │   └── jobs-list.html        # Job Management Directory
-└── Section9 Project Two/
-    ├── index.html            # Project 2 Starter Setup
-    └── style.css             # Custom CSS Stylesheet
+├── Section9 Project Two/
+│   ├── img/
+│   │   ├── Banner.jpg        # Hero Header Banner Image
+│   │   └── post-image.jpg    # Featured Post Thumbnail Image
+│   ├── default.html          # Default Layout Template
+│   ├── index.html            # Blog Homepage with Hero Banner & Posts Grid
+│   ├── page.html             # Single Static Page Template
+│   ├── posts.html            # Single Article Details & Comments Section
+│   ├── search.html           # Search Results & Filter Page
+│   └── style.css             # Custom Styles & Glassmorphism Navigation
+└── Section10 Project Three/
+    ├── index.html            # Project 3 Workspace Entry
+    └── styles.css            # Project 3 Custom Stylesheet
 ```
 
 ---
@@ -106,7 +130,7 @@ Bootstrap/
 ## 📖 Sections Breakdown
 
 ### Section 1: Bootstrap Setup & Basics
-- **01-hello-world**: Bootstrap 5 setup via CDN (`bootstrap.min.css` & `bootstrap.bundle.min.js`), viewport meta configuration, and starter template testing.
+- **01-hello-world**: Bootstrap 5 setup via CDN (`bootstrap.min.css` & `bootstrap.bundle.min.js`), viewport meta configuration, and starter boilerplate testing.
 
 ---
 
@@ -143,6 +167,20 @@ Modern, accessible, and responsive form components:
 
 ---
 
+### Section 5: Components
+Interactive, reusable Bootstrap UI components:
+- **Accordions (`01`)**: Collapsible accordion panels (`.accordion`, `.accordion-item`, `.accordion-button`).
+- **Alerts & Links (`02`)**: Contextual alert boxes (`.alert-*`) with styled inline hyperlinks (`.alert-link`).
+- **Dismissible Alerts (`03`)**: Interactive dismissible alerts with smooth fade transitions (`.alert-dismissible`, `.btn-close`).
+- **Badges (`04`)**: Notification counters, contextual badges, and pill tags (`.badge`, `.rounded-pill`).
+- **Breadcrumbs (`05`)**: Navigation trail indicators for page hierarchy (`.breadcrumb`, `.breadcrumb-item`).
+- **Buttons & Grids (`06`)**: Contextual and outline buttons (`.btn-*`, `.btn-outline-*`), size variants (`.btn-lg`, `.btn-sm`), and full-width block buttons via grid wrappers (`d-grid gap-2`).
+- **Button Groups & Toolbars (`07`, `08`)**: Grouping buttons together (`.btn-group`), combining multiple button groups with input groups into unified toolbars (`.btn-toolbar`).
+- **Button Sizing & Orientation (`09`)**: Large/small button groups and vertical stacking (`.btn-group-vertical`).
+- **Practice Modules (`10` to `26`)**: Component hands-on practice modules.
+
+---
+
 ### Section 6: Helpers Bootstrap
 Specialized helper classes that streamline common UI tasks:
 - **Clearfix**: Clearing floated elements with `.clearfix`.
@@ -172,6 +210,9 @@ Comprehensive reference of Bootstrap 5 atomic utility classes:
 ---
 
 ### Section 8: Project One - EMS 2.0 (Employee Management System)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_EMS_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://ems-web-kappa.vercel.app/)
+
 A complete, responsive multi-page administrative web application built using Bootstrap 5:
 - **`index.html` (Authentication)**: Clean login page featuring floating labels, remember-me checkbox, gradient text branding, and shadow cards.
 - **`dash.html` (Dashboard)**: Central operations dashboard equipped with:
@@ -190,9 +231,36 @@ A complete, responsive multi-page administrative web application built using Boo
 
 ---
 
-### Section 9: Project Two - Starter Setup
-- **`index.html`**: Clean template integrating Bootstrap 5.3 CDN, viewport settings, and script bundles.
-- **`style.css`**: Custom styling stylesheet for project customizations.
+### Section 9: Project Two - BLOG 2.0 (Modern Responsive Blog Platform)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_BLOG_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://blog-app-jet-ten-12.vercel.app/)
+
+A full-featured, responsive multi-page modern blog platform:
+- **`index.html` (Homepage)**:
+  - Fixed-top frosted glass navbar with search bar and mobile toggle (`custom-nav` with backdrop blur).
+  - Hero banner with custom gradient branding (`BLOG2.0`).
+  - Featured article feed with category tags, author metadata, read-more links, and pagination.
+  - Interactive newsletter subscription modal trigger.
+  - Sidebar with author profile card, category pills, tags, and search widget.
+- **`posts.html` (Single Post)**:
+  - Formatted article view with full headers, typography hierarchy, blockquotes, and featured post media.
+  - Author bio box with avatar and profile summary.
+  - Comment submission form with real-time responsive discussion threads.
+- **`page.html` (Static Page)**:
+  - Clean generic page template suited for static content (About Us, Privacy Policy, Terms).
+- **`search.html` (Search Results)**:
+  - Search query header with matching post card results, sidebar filters, and pagination.
+- **`default.html` (Default Layout Template)**:
+  - Base blueprint combining navigation, hero header, loop area, sidebar, and multi-column footer.
+- **`style.css`**:
+  - Custom CSS styling featuring multi-stop gradient branding (`.brand-gradient`), responsive cover banner (`.banner-holder`), and glassmorphism navbar (`.custom-nav`).
+- **`img/`**:
+  - Project image assets (`Banner.jpg`, `post-image.jpg`).
+
+---
+
+### Section 10: Project Three - Setup & Workspace
+- **`index.html` & `styles.css`**: Clean starter workspace and custom stylesheet ready for Project Three development.
 
 ---
 
@@ -207,5 +275,4 @@ A complete, responsive multi-page administrative web application built using Boo
    code .
    ```
 3. **Launch in Browser**:
-   - Right-click any `.html` file (e.g., `Section8 Project One/dash.html`) and select **Open with Live Server**, or simply double-click the file in File Explorer to open it in your default web browser.
-
+   - Right-click any `.html` file (e.g., `Section9 Project Two/index.html` or `Section8 Project One/dash.html`) and select **Open with Live Server**, or double-click the file in File Explorer to open it in your default web browser.
