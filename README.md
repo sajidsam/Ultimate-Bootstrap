@@ -31,10 +31,23 @@ This repository contains a comprehensive, hands-on learning roadmap and practica
 
 ---
 
+## 🖼️ Featured Projects Slider
+
+<div align="center">
+  <a href="https://ems-web-kappa.vercel.app/" target="_blank">
+    <img src="assets/project-slider.gif" alt="Bootstrap Projects Preview Slider" width="100%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.18);" />
+  </a>
+  <p><em>✨ Animated showcase of <strong>EMS 2.0</strong> and <strong>BLOG 2.0</strong> project interfaces</em></p>
+</div>
+
+---
+
 ## 📂 Folder Structure
 
 ```text
 Bootstrap/
+├── assets/
+│   └── project-slider.gif    # Animated Project Showcase Slider
 ├── Section1 Bootstrap/
 │   └── 01-hello-world/
 │       └── index.html
@@ -106,6 +119,11 @@ Bootstrap/
 │   ├── 57-visibility/
 │   └── 58-z-index/
 ├── Section8 Project One/
+│   ├── ReadmeImages/         # Project 1 Preview Screenshots
+│   │   ├── emsLogIn.png
+│   │   ├── emsMain.png
+│   │   ├── emsEmp.png
+│   │   └── emsJob.png
 │   ├── index.html            # Authentication / Login Page
 │   ├── dash.html             # Main EMS Admin Dashboard
 │   ├── employees-list.html   # Employee Directory with Modals & Table
@@ -114,6 +132,10 @@ Bootstrap/
 │   ├── img/
 │   │   ├── Banner.jpg        # Hero Header Banner Image
 │   │   └── post-image.jpg    # Featured Post Thumbnail Image
+│   ├── ReadmeImages/         # Project 2 Preview Screenshots
+│   │   ├── Main Page.png
+│   │   ├── post.png
+│   │   └── categories.png
 │   ├── default.html          # Default Layout Template
 │   ├── index.html            # Blog Homepage with Hero Banner & Posts Grid
 │   ├── page.html             # Single Static Page Template
@@ -229,6 +251,16 @@ A complete, responsive multi-page administrative web application built using Boo
   - "Add Job" modal form for posting new openings.
   - Filterable layout and management actions.
 
+#### 📸 Project 1 Interface & Screenshots
+
+| 🔐 Login Authentication | 📊 Admin Operations Dashboard |
+| :---: | :---: |
+| [![EMS Login](Section8%20Project%20One/ReadmeImages/emsLogIn.png)](https://ems-web-kappa.vercel.app/) | [![EMS Dashboard](Section8%20Project%20One/ReadmeImages/emsMain.png)](https://ems-web-kappa.vercel.app/) |
+
+| 👥 Employee Directory & Modal Form | 💼 Job Postings & Hiring Directory |
+| :---: | :---: |
+| [![EMS Employees](Section8%20Project%20One/ReadmeImages/emsEmp.png)](https://ems-web-kappa.vercel.app/) | [![EMS Jobs](Section8%20Project%20One/ReadmeImages/emsJob.png)](https://ems-web-kappa.vercel.app/) |
+
 ---
 
 ### Section 9: Project Two - BLOG 2.0 (Modern Responsive Blog Platform)
@@ -256,6 +288,12 @@ A full-featured, responsive multi-page modern blog platform:
   - Custom CSS styling featuring multi-stop gradient branding (`.brand-gradient`), responsive cover banner (`.banner-holder`), and glassmorphism navbar (`.custom-nav`).
 - **`img/`**:
   - Project image assets (`Banner.jpg`, `post-image.jpg`).
+
+#### 📸 Project 2 Interface & Screenshots
+
+| 📰 Blog Homepage & Hero Banner | 📖 Single Article & Comments | 🔍 Categories & Search Archive |
+| :---: | :---: | :---: |
+| [![BLOG 2.0 Homepage](Section9%20Project%20Two/ReadmeImages/Main%20Page.png)](https://blog-app-jet-ten-12.vercel.app/) | [![BLOG 2.0 Post](Section9%20Project%20Two/ReadmeImages/post.png)](https://blog-app-jet-ten-12.vercel.app/) | [![BLOG 2.0 Categories](Section9%20Project%20Two/ReadmeImages/categories.png)](https://blog-app-jet-ten-12.vercel.app/) |
 
 ---
 
