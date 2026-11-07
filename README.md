@@ -4,6 +4,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap 5](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -152,13 +154,17 @@ Bootstrap/
     │   ├── home.png
     │   ├── courses.png
     │   ├── single-course.png
-    │   └── blog.png
+    │   ├── blog.png
+    │   ├── contact.png
+    │   └── single-post.png
     ├── about.html            # About the Platform Page
     ├── blog.html             # Education Blog & Articles
+    ├── contact.html          # Contact Inquiry Page & Office Info
     ├── courses.html          # Course Catalog & Filters
     ├── faq.html              # Frequently Asked Questions Accordion
     ├── index.html            # Prime Inspire E-Learning Homepage
     ├── single-course.html    # Detailed Course Syllabus & Enrollment
+    ├── single-post.html      # Individual Blog Post Reader Page
     └── styles.css            # Custom Styling & Glassmorphism Blur
 ```
 
@@ -166,12 +172,12 @@ Bootstrap/
 
 ## 📖 Sections Breakdown
 
-### Section 1: Bootstrap Setup & Basics
+### 📚 [Section 1: Bootstrap Setup & Basics](Section1%20Bootstrap/README.md)
 - **01-hello-world**: Bootstrap 5 setup via CDN (`bootstrap.min.css` & `bootstrap.bundle.min.js`), viewport meta configuration, and starter boilerplate testing.
 
 ---
 
-### Section 2: Layout & Grid System
+### 📐 [Section 2: Layout & Grid System](Section2%20Layout/README.md)
 Deep dive into Bootstrap's 12-column responsive grid engine and containers:
 - **Containers**: Responsive fixed `.container` vs fluid `.container-fluid`.
 - **Grid Options**: Responsive column scaling (`col-sm`, `col-md`, `col-lg`, `col-xl`).
@@ -183,7 +189,7 @@ Deep dive into Bootstrap's 12-column responsive grid engine and containers:
 
 ---
 
-### Section 3: Contents
+### ✍️ [Section 3: Contents & Typography](Section3%20Contents/README.md)
 Styling foundational typography and HTML content elements:
 - **Typography & Inline Elements**: Display headings (`display-1` to `display-6`), lead text (`.lead`), mark, text strike, small, and bold text.
 - **Blockquotes**: Quotations styling and cite footers (`.blockquote-footer`).
@@ -193,7 +199,7 @@ Styling foundational typography and HTML content elements:
 
 ---
 
-### Section 4: Forms
+### 📝 [Section 4: Forms & Input Controls](Section4%20Forms/README.md)
 Modern, accessible, and responsive form components:
 - **Form Controls & Sizing**: Standard input controls, sizing (`.form-control-lg`, `.form-control-sm`), and disabled/readonly states.
 - **Checks, Radios & Switches**: Custom styled checkboxes, radio buttons, and toggle switches (`.form-switch`).
@@ -204,7 +210,7 @@ Modern, accessible, and responsive form components:
 
 ---
 
-### Section 5: Components
+### 🧩 [Section 5: Components](Section5%20Components/README.md)
 Interactive, reusable Bootstrap UI components:
 - **Accordions (`01`)**: Collapsible accordion panels (`.accordion`, `.accordion-item`, `.accordion-button`).
 - **Alerts & Links (`02`)**: Contextual alert boxes (`.alert-*`) with styled inline hyperlinks (`.alert-link`).
@@ -218,7 +224,7 @@ Interactive, reusable Bootstrap UI components:
 
 ---
 
-### Section 6: Helpers Bootstrap
+### 🛠️ [Section 6: Helpers Bootstrap](Section6%20Helpers%20Bootstrap/README.md)
 Specialized helper classes that streamline common UI tasks:
 - **Clearfix**: Clearing floated elements with `.clearfix`.
 - **Color & Background Helpers**: Text and background color styling helper utilities.
@@ -233,7 +239,7 @@ Specialized helper classes that streamline common UI tasks:
 
 ---
 
-### Section 7: Utilities
+### ⚡ [Section 7: Utilities](Section7%20Utilities/README.md)
 Comprehensive reference of Bootstrap 5 atomic utility classes:
 - **Backgrounds & Borders**: Color palettes, gradients, opacity control, border widths, colors, and rounded corners (`rounded-pill`, `rounded-circle`).
 - **Colors & Opacity**: Contextual text colors and text opacity utilities.
@@ -246,7 +252,7 @@ Comprehensive reference of Bootstrap 5 atomic utility classes:
 
 ---
 
-### Section 8: Project One - EMS 2.0 (Employee Management System)
+### 🚀 [Section 8: Project One - EMS 2.0 (Employee Management System)](Section8%20Project%20One/README.md)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_EMS_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://ems-web-kappa.vercel.app/)
 
@@ -278,7 +284,7 @@ A complete, responsive multi-page administrative web application built using Boo
 
 ---
 
-### Section 9: Project Two - BLOG 2.0 (Modern Responsive Blog Platform)
+### 📰 [Section 9: Project Two - BLOG 2.0 (Modern Responsive Blog Platform)](Section9%20Project%20Two/README.md)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_BLOG_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://blog-app-jet-ten-12.vercel.app/)
 
@@ -312,7 +318,7 @@ A full-featured, responsive multi-page modern blog platform:
 
 ---
 
-### Section 10: Project Three - RW Education (Prime Inspire E-Learning Platform)
+### 🎓 [Section 10: Project Three - RW Education (Prime Inspire E-Learning Platform)](Section10%20Project%20Three/README.md)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_RW_Education-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://rw-education.vercel.app/)
 
@@ -333,6 +339,10 @@ A complete, modern multi-page online education and learning platform built with 
   - Mission & vision statement, platform achievements counter, and leadership faculty directory.
 - **`blog.html` (Education Insights)**:
   - Educational articles, tutorials, and career guidance posts grid with category badges and pagination.
+- **`single-post.html` (Article Reading Experience)**:
+  - Full article layout with hero header banner, rich typography, author credentials, related articles, and comments.
+- **`contact.html` (Contact & Support)**:
+  - Contact form, interactive location card, office inquiry channels, modal trigger, and responsive footer.
 - **`faq.html` (FAQ & Support)**:
   - Expandable Bootstrap accordions answering student, teacher, and billing queries.
 - **`styles.css`**:
@@ -342,13 +352,13 @@ A complete, modern multi-page online education and learning platform built with 
 
 #### 📸 Project 3 Interface & Screenshots
 
-| 🎓 E-Learning Homepage | 📚 Course Catalog & Filters |
-| :---: | :---: |
-| [![RW Education Homepage](Section10%20Project%20Three/ReadmeImages/home.png)](https://rw-education.vercel.app/) | [![RW Education Courses](Section10%20Project%20Three/ReadmeImages/courses.png)](https://rw-education.vercel.app/) |
+| 🎓 E-Learning Homepage | 📚 Course Catalog & Filters | 📝 Single Course Syllabus |
+| :---: | :---: | :---: |
+| [![RW Education Homepage](Section10%20Project%20Three/ReadmeImages/home.png)](https://rw-education.vercel.app/) | [![RW Education Courses](Section10%20Project%20Three/ReadmeImages/courses.png)](https://rw-education.vercel.app/) | [![RW Education Single Course](Section10%20Project%20Three/ReadmeImages/single-course.png)](https://rw-education.vercel.app/) |
 
-| 📝 Single Course Syllabus | 📰 Education Blog & Articles |
-| :---: | :---: |
-| [![RW Education Single Course](Section10%20Project%20Three/ReadmeImages/single-course.png)](https://rw-education.vercel.app/) | [![RW Education Blog](Section10%20Project%20Three/ReadmeImages/blog.png)](https://rw-education.vercel.app/) |
+| 📰 Education Blog & Articles | 📖 Single Article Reader | 📬 Contact & Support Page |
+| :---: | :---: | :---: |
+| [![RW Education Blog](Section10%20Project%20Three/ReadmeImages/blog.png)](https://rw-education.vercel.app/) | [![RW Education Single Post](Section10%20Project%20Three/ReadmeImages/single-post.png)](https://rw-education.vercel.app/) | [![RW Education Contact](Section10%20Project%20Three/ReadmeImages/contact.png)](https://rw-education.vercel.app/) |
 
 ---
 
