@@ -28,16 +28,17 @@ This repository contains a comprehensive, hands-on learning roadmap and practica
 | :--- | :--- | :--- |
 | **Project 1: EMS 2.0 (Employee Management System)** | [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_EMS_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://ems-web-kappa.vercel.app/) | Vercel |
 | **Project 2: BLOG 2.0 (Modern Blog Platform)** | [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_BLOG_2.0-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://blog-app-jet-ten-12.vercel.app/) | Vercel |
+| **Project 3: RW Education (Prime Inspire E-Learning)** | [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_RW_Education-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://rw-education.vercel.app/) | Vercel |
 
 ---
 
 ## 🖼️ Featured Projects Slider
 
 <div align="center">
-  <a href="https://ems-web-kappa.vercel.app/" target="_blank">
+  <a href="https://rw-education.vercel.app/" target="_blank">
     <img src="assets/project-slider.gif" alt="Bootstrap Projects Preview Slider" width="100%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.18);" />
   </a>
-  <p><em>✨ Animated showcase of <strong>EMS 2.0</strong> and <strong>BLOG 2.0</strong> project interfaces</em></p>
+  <p><em>✨ Animated showcase of <strong>EMS 2.0</strong>, <strong>BLOG 2.0</strong>, and <strong>RW Education</strong> project interfaces</em></p>
 </div>
 
 ---
@@ -143,8 +144,22 @@ Bootstrap/
 │   ├── search.html           # Search Results & Filter Page
 │   └── style.css             # Custom Styles & Glassmorphism Navigation
 └── Section10 Project Three/
-    ├── index.html            # Project 3 Workspace Entry
-    └── styles.css            # Project 3 Custom Stylesheet
+    ├── img/                  # Logo, Icons & Illustration Media Assets
+    │   ├── Prime-Inspire-Logo.svg
+    │   ├── main-header.jpg
+    │   └── subscribe.jpg
+    ├── ReadmeImages/         # Project 3 Preview Screenshots
+    │   ├── home.png
+    │   ├── courses.png
+    │   ├── single-course.png
+    │   └── blog.png
+    ├── about.html            # About the Platform Page
+    ├── blog.html             # Education Blog & Articles
+    ├── courses.html          # Course Catalog & Filters
+    ├── faq.html              # Frequently Asked Questions Accordion
+    ├── index.html            # Prime Inspire E-Learning Homepage
+    ├── single-course.html    # Detailed Course Syllabus & Enrollment
+    └── styles.css            # Custom Styling & Glassmorphism Blur
 ```
 
 ---
@@ -297,8 +312,43 @@ A full-featured, responsive multi-page modern blog platform:
 
 ---
 
-### Section 10: Project Three - Setup & Workspace
-- **`index.html` & `styles.css`**: Clean starter workspace and custom stylesheet ready for Project Three development.
+### Section 10: Project Three - RW Education (Prime Inspire E-Learning Platform)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_RW_Education-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://rw-education.vercel.app/)
+
+A complete, modern multi-page online education and learning platform built with Bootstrap 5:
+- **`index.html` (Homepage)**:
+  - Sticky glassmorphism header with navigation, brand logo (`Prime-Inspire-Logo.svg`), and auth triggers.
+  - Interactive hero section with instant course search bar and statistics badges.
+  - Top category cards with course counters and hover micro-animations.
+  - Featured course grid with pricing, instructor info, duration badges, and rating stars.
+  - Testimonials slider, trust badges, and newsletter subscription banner.
+- **`courses.html` (Course Catalog)**:
+  - Searchable and filterable course library with multi-criteria accordion filters (categories, level, pricing).
+  - Responsive course cards with metadata tags, instructor attribution, and quick enroll actions.
+- **`single-course.html` (Course Details & Syllabus)**:
+  - Video preview placeholder, comprehensive course curriculum accordion modules, and learning outcomes checklist.
+  - Instructor profile bio card and sticky enrollment pricing summary box.
+- **`about.html` (About Us)**:
+  - Mission & vision statement, platform achievements counter, and leadership faculty directory.
+- **`blog.html` (Education Insights)**:
+  - Educational articles, tutorials, and career guidance posts grid with category badges and pagination.
+- **`faq.html` (FAQ & Support)**:
+  - Expandable Bootstrap accordions answering student, teacher, and billing queries.
+- **`styles.css`**:
+  - Scoped custom stylesheet for brand colors, blurred navigation backdrop filter, and smooth hover effects.
+- **`img/`**:
+  - Media assets including SVG logos, responsive illustrations, and course banners.
+
+#### 📸 Project 3 Interface & Screenshots
+
+| 🎓 E-Learning Homepage | 📚 Course Catalog & Filters |
+| :---: | :---: |
+| [![RW Education Homepage](Section10%20Project%20Three/ReadmeImages/home.png)](https://rw-education.vercel.app/) | [![RW Education Courses](Section10%20Project%20Three/ReadmeImages/courses.png)](https://rw-education.vercel.app/) |
+
+| 📝 Single Course Syllabus | 📰 Education Blog & Articles |
+| :---: | :---: |
+| [![RW Education Single Course](Section10%20Project%20Three/ReadmeImages/single-course.png)](https://rw-education.vercel.app/) | [![RW Education Blog](Section10%20Project%20Three/ReadmeImages/blog.png)](https://rw-education.vercel.app/) |
 
 ---
 
